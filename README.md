@@ -1,22 +1,22 @@
-# TÍTULO DO PROJETO
+# PETHUB - Seu point certo de adoção de pets
 
 `Análise e Desenvolvimento de Sistemas`
 
 `Projeto`
 
-`SEMESTRE`
+`SEMESTRE - 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Rodrigo Soares
-* Giulia Brião
-* Fernanda Rios
 * Atos Pereira
+* Fernanda Rios
+* Giulia Brião
 * Luiz Felipe Trindade
+* Rodrigo Soares
 
-## Orientador
+## Orientadora
 
 * Viviâne de Almeida Tôrres
 
