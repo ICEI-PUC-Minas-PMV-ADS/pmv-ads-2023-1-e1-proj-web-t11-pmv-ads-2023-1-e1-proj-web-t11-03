@@ -1,9 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia utilizada para resolver o problema será uma adaptação do SCRUM e Kanban de maneira a gerenciarmos as tarefas que serão atribuídas aos integrantes dos times bem como seus papéis dentro do projeto. O time usuará o Discord como ferramenta de comunicação assíncrona e fará reuniões semanais para definir a atribuição de tarefas ao longo da semana. Para controle de versão do código será utilizado o Git e o repositório em que o código será o Github. Para gestão das tarefas do time será utilizado o próprio Github que dispõe de uma ferramenta própria para isso no próprio repositório. 
 
 ## Controle de Versão
 
@@ -14,64 +12,67 @@ foi utilizado para hospedagem do repositório.
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `release/v*.*`: versão do software que estável porém será utilizada para testes e receber merge das branches de desenvolvimento.
+- `bugfix/nome-do-bug`: versão de desenvolvimento do software para resolver um bug
+- `hotfix/nome-do-bug`: versão de desenvolvimento do software para resolver um bug crítico que deve ir direto para main
+- `feature/nome-da-feature`: versão de desenvolvimento do software para criação de uma nova funcionalidade
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `Atualização de texto`: Issue para atualização na documentação do projeto
+- `Código`: Issue que envolve desenvolvimento de código fonte
+- `Crítico`: Tarefa crítica que tem curto prazo
+- `Dúvida`: Tarefa que dependerá de um esclarecimento com a professora ou monitor
+- `Erro`: Tarefa para corrigir um erro tanto em documentação quanto em código fonte
+- `Interface`: Tarefa que envolve desenvolvimento de interface do projeto
+- `Necessita ajuda`: Funcionalidade que precisará de mais de uma pessoa para ser executada
+- `Tarefa do time`: Tarefa que envolve o time todo em um encontro síncrono para ser executada
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+Iremos usar o Git para controle de versão do código fonte e documentação. As estratégias de merge utilizadas serão:
+- Se for um `bugfix` ou `feature` os commits podem ser feitos livremente, e deverá ser feito um merge request para a branch de release e será analisado por qualquer membro do time antes do merge
+- Se um `hotfix` será feito um merge request diretamente para a branch `main` que será revisado por qualquer membro do time antes de feito o merge
+- Após a `release` ser testada, será feito um merge request para a `main` que será analisado por qualquer membro do time
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+Os issues serão criados, serão atribuídas tags dependendo da natureza da tarefa e serão traduizadas em branches ou não dependendo do que o time decidir no planejamento semanal.
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+<b>Scrum Master:</b>  Giulia Brião
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+<b>Product Owner:</b> Rodrigo Soares
+
+<b>Equipe de Desenvolvimento:</b>
+- Atos Pereira
+- Fernanda Rios
+- Giulia Brião
+- Luiz Felipe
+- Rodrigo soares 
+
+<b>Equipe de Design</b>
+- Atos Pereira
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para gerenciamento do time e aplicação de metodologias ágeis, será utilizado os recursos `Projects` e `Issues` do Github. O Project possuirá os seguintes quadros:
+- `Product Backlog`: Com o backlog do produto 
+- `To Do`: Issues a serem feitas
+- `In progress`: Issues que já estão sendo desenvolvidas pelo time
+- `In Review`: Issues em análise já realizada porém em análise por algum membro do time
+- `Done`: Issues já concluídas
+
+As Sprints ocrrerão conforme as etapas do Projeto definidas no Canvas e serão `Milestones` no Github será possível acompanhar o adamento do projeto através das `Milestones` conforme os `Issues` vão sendo resolvidos.
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Visual Studio Code, Jetbrains Fleet para edição de código fonte.
+- Git Kraken, SourceTree e Visual Studio Code como cliente Git.
+- Discord, Whatsapp, Microsoft Teams e Github Projects para comunicação.
+- Figma para prototipação de interface.
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+Os editores de código e clientes Git foram escolhidos porque possuem integração com o
+sistema de versão e são os que os membros do time possuem experiência. As ferramentas de comunicação utilizadas são as que o time consegue se comunicar e gerenciar as tarefas e o Figma foi escolhido porque o designer do time já possuia experiência prévia, então foi escolhida para melhor captar as necessidades da solução.
