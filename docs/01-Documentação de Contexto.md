@@ -1,46 +1,33 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O processo de adoção é indispensável para diminuir a concentração de animais nas ruas das cidades e, consequentemente, baixar a incidência de zoonoses, proporcionando qualidade de vida para a população e os próprios animais. (SCHERER, 2021). Diante desse cenário, nota-se que a principal forma de adoção das pessoas é por meio de redes sociais (Instagram, Twitter, WhatsApp, Telegram e etc.), conforme comprovamos por uma pesquisa realizada pelo Google Forms. 
+
+Os Agentes da Causa Animal (ACA – ONGs, abrigos e protetores independentes que resgatam e cuidam de animais), assim como as pessoas que querem adotar um pet, têm como obstáculo a descentralização das informações sobre animais nas plataformas digitais. 	Dessa forma, observa-se a necessidade de conectar essas pessoas e os ACAs a fim de facilitar a adoção de pets. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
+É notório que a dificuldade dos ACAs na divulgação de animais para adoção em várias plataformas digitais é um problema, da mesma maneira que pessoas interessadas em adotar tem dificuldade na busca por pets.
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral do projeto é criar uma plataforma para possibilitar o contato entre ACAs e protetores que resgatam e cuidam de animais e pessoas que tem interesse em adotar, ou seja, os futuros tutores.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos temos: 
+
+- Disponibilizar, através da plataforma, um cadastro de ACAs e adotantes; 
+- Permitir a criação de perfis dos animais disponíveis para adoção;
+- Facilitar o gerenciamento dos ACAs e dos adotantes em relação ao interesse nos animais cadastrados. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Dados de 2022 da Organização Mundial de Saúde (OMS) apontam que existem, no Brasil, cerca de 30 milhões de animais abandonados. Entre esses, 20 milhões são cachorros e 10 milhões gatos. Um levantamento da Confederação Brasileira de Proteção Animal, feito em 2021, revela que, somente no DF, são cerca de 700 mil animais abandonados. Por que não se tornar uma das pessoas que oferece, além de um lar seguro, o amor e o acolhimento que esses pets tanto precisam? (Cabral A., Giló N, 2023)  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Em pesquisa realizada com um grupo de 81 pessoas, nos estados de São Paulo e Minas Gerais, entre os dias 14 e 23 de março de 2023, pelo Google Forms, fica claro a importância da construção de uma plataforma com a finalidade de facilitar a adoção de animais. 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+![Grafico 1](img/grafico-1.png)
+
+![Grafico 2](img/grafico-2.png)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Temos dois tipos de usuários neste projeto: os adotantes e as ACAS. O tipo de adotante que temos como público-alvo são pessoas adultas, principalmente mulheres, entre 20 e 60 anos, que possuem uma renda fixa ou algum tipo de estabilidade trabalhista que possibilite a adoção de um animal de estimação de forma responsável e que forneça toda infraestrutura necessária para o seu bem-estar.  
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Já as ACAs podem tanto ser ONGs ou abrigos com CNPJ como também pessoas protetoras independentes da causa animal. Se tratando do primeiro caso, o foco é em organizações com algum registro oficial de funcionamento, para garantir aos adotantes a seriedade destas instituições, enquanto que, se tratando de protetores independentes, o foco está em pessoas adultas, principalmente mulheres, com no mínimo 2 anos de atuação na causa animal que possa ser comprovada de alguma forma (redes sociais, testemunhas, etc)
