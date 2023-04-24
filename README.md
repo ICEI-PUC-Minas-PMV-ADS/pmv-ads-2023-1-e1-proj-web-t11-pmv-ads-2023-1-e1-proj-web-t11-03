@@ -7,9 +7,9 @@
 `SEMESTRE - 1`
 
 PetHub é uma plataforma de adoção de pets, em que pessoas interessadas em adotar e pessoas ou instituições que tem pets disponíveis para adoção podem facilmente se encontrar para concretizar este ato tão nobre que é a adoção de um animal de estimação. A plataforma permite realizar cadastro sendo ou adotante ou ACA (Agente da Causa Animal), as quais são pessoas, ONGs ou abrigos que resgatam e/ou cuidam de pets que precisam de um lar. 
-<br>
+
 Enquanto adotante, é possível visualizar pets disponiveis na home page e clicar em um deles para ver mais detalhes e, se quiserem, salvar este pet na sua lista pessoal de interesse, entrando em contato com a ACA responsável depois. 
-<br>
+
 Enquanto ACA, é possível cadastrar pets, administra-los marcando como adotados ou removendo da lista de pets disponíveis, além de ver o perfil das pessoas interessadas em seus pets, para futuramente entrar em contato e finalizar a adoção. 
 
 ## Integrantes
