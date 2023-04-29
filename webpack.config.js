@@ -3,6 +3,16 @@
 const path = require('path')
 const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const glob = require('glob');
+
+const htmlFiles = glob.sync('./src/pages/*.html');
+
+const htmlPlugins = htmlFiles.map(file => {
+  return new HtmlWebpackPlugin({
+    filename: file.replace('src/', ''),
+    template: file
+  });
+});
 
 module.exports = {
   mode: 'development',
@@ -17,7 +27,7 @@ module.exports = {
     hot: true
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' })
+    ...htmlPlugins
   ],
   module: {
     rules: [
