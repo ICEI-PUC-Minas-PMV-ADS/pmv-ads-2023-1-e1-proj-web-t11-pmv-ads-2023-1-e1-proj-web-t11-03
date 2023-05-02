@@ -31,3 +31,7 @@ Em pesquisa realizada com um grupo de 81 pessoas, nos estados de São Paulo e Mi
 Temos dois tipos de usuários neste projeto: os adotantes e as ACAS. O tipo de adotante que temos como público-alvo são pessoas adultas, principalmente mulheres, entre 20 e 60 anos, que possuem uma renda fixa ou algum tipo de estabilidade trabalhista que possibilite a adoção de um animal de estimação de forma responsável e que forneça toda infraestrutura necessária para o seu bem-estar.  
 
 Já as ACAs podem tanto ser ONGs ou abrigos com CNPJ como também pessoas protetoras independentes da causa animal. Se tratando do primeiro caso, o foco é em organizações com algum registro oficial de funcionamento, para garantir aos adotantes a seriedade destas instituições, enquanto que, se tratando de protetores independentes, o foco está em pessoas adultas, principalmente mulheres, com no mínimo 2 anos de atuação na causa animal que possa ser comprovada de alguma forma (redes sociais, testemunhas, etc)
+
+## Por que o PetHub merece ir pro SharkTank?
+
+Porque é um projeto maravilhoso!!!
