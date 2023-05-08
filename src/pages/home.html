@@ -19,10 +19,33 @@
             </svg>
             <span class="fs-4">Pethub</span>
         </a>
-        <ul class="nav">
-            <li class="nav-item"><a href="#" class="nav-link link-dark px-2"><b></>Entrar</b></a></li>
-            <li class="nav-item"><a href="#" class="nav-link link-dark px-2"><b>Registrar-se</b></a></li>
+        <ul class="nav" id="menu-deslogado">
+            <li class="nav-item">
+                <a href="#" class="nav-link link-dark px-2">
+                    <b>Entrar</b>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link link-dark px-2">
+                    <b>Registrar-se</b>
+                </a>
+            </li>
         </ul>
+        <div class="dropdown d-none" id="menu-logado">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+               data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong class="text-dark">Adotante Massa</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="#">Meu perfil</a></li>
+                <li><a class="dropdown-item" href="#">Pets Salvos</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+        </div>
     </div>
 </header>
 <!-- FIM HEADER -->
