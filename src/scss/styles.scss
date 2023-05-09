@@ -36,8 +36,17 @@ $success: #7952b3;
 // Custom styles
 //
 
+@font-face {
+  font-family: pethubLogo;
+  src: url('../../public/fonts/Virgil.woff2')
+}
+
 body {
   font-family: 'DM Sans';
+}
+
+.pethubLogo {
+  font-family: pethubLogo;
 }
 
 .btn-primary {

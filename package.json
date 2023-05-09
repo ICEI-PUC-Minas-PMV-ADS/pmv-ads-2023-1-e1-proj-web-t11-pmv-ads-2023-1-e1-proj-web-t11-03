@@ -11,7 +11,8 @@
   "scripts": {
     "start": "webpack && nodemon server.js --watch",
     "build": "webpack build --mode=production",
-    "test": "npm run build"
+    "test": "npm run build",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.7",
