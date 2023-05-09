@@ -60,5 +60,10 @@ body {
   font-weight: 400
 }
 
+.title {
+  color: $primary;
+  font-weight: bold;
+}
+
 
 @import "icon-list";
