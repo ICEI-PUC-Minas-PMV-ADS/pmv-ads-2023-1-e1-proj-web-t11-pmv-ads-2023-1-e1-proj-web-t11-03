@@ -44,5 +44,12 @@ body {
   color: $btn-text-color;
 }
 
+.btn-secondary {
+  color:#333;
+  border-color: $primary;
+  background-color: #fff;
+  font-weight: 400
+}
+
 
 @import "icon-list";
