@@ -23,6 +23,14 @@ app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/login.html'));
 });
 
+app.get('/cadastro', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/cadastro.html'));
+});
+
+app.get('/cadastro/tipo-de-conta', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/cadastro-tipo-de-conta.html'));
+});
+
 app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');
 });
