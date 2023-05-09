@@ -35,6 +35,10 @@ app.get('/cadastro/aca', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/cadastro-aca.html'));
 });
 
+app.get('/cadastro/adotante', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/cadastro-adotante.html'));
+});
+
 app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');
 });
