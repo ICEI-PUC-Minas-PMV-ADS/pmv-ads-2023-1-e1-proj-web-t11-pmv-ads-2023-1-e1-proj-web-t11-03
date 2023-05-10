@@ -65,5 +65,13 @@ body {
   font-weight: bold;
 }
 
+.imagemCadastro {
+  height: 15rem;
+  width: 15rem;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 
 @import "icon-list";
