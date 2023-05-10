@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 
-const pagesPath = 'dist/pages';
+const pagesPath = 'dist/src/pages';
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
