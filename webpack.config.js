@@ -3,6 +3,7 @@
 const path = require('path')
 const autoprefixer = require('autoprefixer')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const glob = require('glob');
 
 const htmlFiles = glob.sync('./src/pages/*.html');
@@ -27,7 +28,12 @@ module.exports = {
     hot: true
   },
   plugins: [
-    ...htmlPlugins
+    ...htmlPlugins,
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'src/img', to: path.resolve(__dirname, 'dist/img') },
+      ],
+    }),
   ],
   module: {
     rules: [
