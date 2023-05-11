@@ -73,5 +73,11 @@ body {
   display: inline-block;
 }
 
+.petAcaModalImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 @import "icon-list";
