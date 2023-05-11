@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro Pet - PetHub</title>
+  <script defer src="../main.js"></script></head>
+
+  <nav class="py-2 bg-info border-bottom">
+    <div class="container d-flex justify-content-center pt-2">
+        <p class="text-light"><b>Seu point certo para adoção de pets</b></p>
+    </div>
+  </nav>
+
+  <header>
+    <nav class="py-2 border-bottom">
+      <div class="container d-flex justify-content-center pt-2">
+       <h1 class="pethubLogo fs-1">Pethub</h1>
+      </div>
+  </nav>
+  </header>
+
+  <body class="text-center">
+
+    <main>
+      <div class="container d-flex flex-row mb-3 align-items-center mt-3">
+        <a href="/cadastro/tipo-de-conta" class="me-3 text-dark">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+        </a>
+        <h2 class="title">Cadastro de Pet</h2>
+      </div>
+
+      <div class="container d-flex align-items-center justify-content-center mt-3 mb-3 vstack gap-3 w-25">
+        <span class="imagemCadastro"></span>
+        <p>Adicione uma foto do pet =D</p>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+
+      <form>
+        <section class="container dadosDaConta vstack gap-3 mt-3">
+          <h3 class="title text-start">Dados do animal</h3>
+
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Adotante Massa">
+                <label for="floatingInput">Nome provisório</label>
+              </div>
+              
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Adotante Massa">
+                <label for="floatingInput">Espécie</label>
+              </div>
+            </div>
+              
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="(21) 99764-9434">
+                <label for="floatingInput">Raça</label>
+              </div>
+              
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Médio">
+                <label for="floatingInput">Porte</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="2 anos">
+                <label for="floatingInput">Idade aproximada</label>
+              </div>
+              
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Feminino">
+                <label for="floatingInput">Sexo</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Sim">
+                <label for="floatingInput">Vacinado?</label>
+              </div>
+              
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Não">
+                <label for="floatingInput">Castrado?</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Sim">
+                <label for="floatingInput">Vermifugado?</label>
+              </div>
+              
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Não">
+                <label for="floatingInput">Está bem de saúde?</label>
+              </div>
+            </div>
+
+            <div class="row text-start">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Detalhes adicionais</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="container mt-3 mb-3 w-25">
+              <a class="w-100 btn btn-lg btn-primary" href="/home-aca" role="button">Concluir cadastro!</a>
+            </div>
+            
+          </div>
+        </section>
+
+      </form>
+    </main>
+
+    <footer>
+      <div class="text-body-secondary py-5">
+          <p class="float-end mb-1">
+              <a href="#">Back to top</a>
+          </p>
+          <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+          <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
+              href="../getting-started/introduction/">getting started guide</a>.</p>
+      </div>
+  </footer>
+  </body>
+</html>
