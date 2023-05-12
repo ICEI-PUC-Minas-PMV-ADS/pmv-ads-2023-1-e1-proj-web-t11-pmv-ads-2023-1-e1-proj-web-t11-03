@@ -43,6 +43,10 @@ app.get('/cadastro/pet', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/cadastro-pet.html'));
 });
 
+app.get('/home-aca/adotantes-interessados', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/adotantes-interessados.html'));
+});
+
 app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');
 });
