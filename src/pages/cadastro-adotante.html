@@ -32,6 +32,12 @@
         <h2 class="title">Cadastro de Adotante</h2>
       </div>
 
+      <div class="container d-flex align-items-center justify-content-center mt-3 mb-3 vstack gap-3 w-25">
+        <span class="imagemCadastro"></span>
+        <p>Adicione uma foto sua (:</p>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+      
       <form>
         <section class="container dadosDoAdotante vstack gap-3">
           <h3 class="title text-start">Dados do Adotante</h3>
@@ -39,36 +45,36 @@
             <div class="row">
               <div class="form-floating col">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Adotante Massa">
-                <label for="floatingInput">Razão social</label>
+                <label for="floatingInput">Nome completo</label>
               </div>
               
               <div class="form-floating col">
-                <input type="tel" class="form-control" id="floatingInput" placeholder="(21) 99764-9434">
-                <label for="floatingInput">Telefone</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="xxx.xxx.xxx-xx">
+                <label for="floatingInput">CPF</label>
               </div>
             </div>
               
             <div class="row">
               <div class="form-floating col">
-                <input type="tel" class="form-control" id="floatingInput" placeholder="(21) 99764-9434">
-                <label for="floatingInput">Celular</label>
+                <input type="date" class="form-control" id="floatingInput" placeholder="21/01/2021">
+                <label for="floatingInput">Data de nascimento</label>
               </div>
               
               <div class="form-floating col">
-                <input type="number" class="form-control" id="floatingInput" placeholder="xxxx/xxxx.xxxx-xx">
-                <label for="floatingInput">CNPJ (se tiver)</label>
+                <input type="email" class="form-control" id="floatingInput" placeholder="adotante@email.com">
+                <label for="floatingInput">E-mail</label>
               </div>
             </div>
 
             <div class="row">
               <div class="form-floating col">
-                <input type="number" class="form-control" id="floatingInput" placeholder="xxx.xxx.xxx-xx">
-                <label for="floatingInput">CPF</label>
+                <input type="tel" class="form-control" id="floatingInput" placeholder="(00) 00000-0000">
+                <label for="floatingInput">Celular</label>
               </div>
               
               <div class="form-floating col">
-                <input type="number" class="form-control" id="floatingInput" placeholder="xxxx.xxx.xxxx.xxx">
-                <label for="floatingInput">Inscrição estadual</label>
+                <input type="tel" class="form-control" id="floatingInput" placeholder="(00) 0000-0000">
+                <label for="floatingInput">Telefone</label>
               </div>
             </div>
         </section>
@@ -77,76 +83,123 @@
   
             <div class="row">
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
-              </div>
-              
-              <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="number" class="form-control" id="floatingInput" placeholder="22765-550">
+                <label for="floatingInput">CEP</label>
               </div>
             </div>
               
             <div class="row">
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="São Paulo">
+                <label for="floatingInput">Estado</label>
               </div>
               
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Vinhedo">
+                <label for="floatingInput">Cidade</label>
               </div>
             </div>
-  
+
             <div class="row">
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
-              </div>
-              
-              <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Rua dos Legumes">
+                <label for="floatingInput">Logradouro</label>
               </div>
             </div>
+
+              <div class="row">
+                <div class="form-floating col">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Vila do Pão">
+                  <label for="floatingInput">Bairro</label>
+                </div>
+                
+                <div class="form-floating col">
+                  <input type="number" class="form-control" id="floatingInput" placeholder="123">
+                  <label for="floatingInput">Número</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-floating col">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Casa">
+                  <label for="floatingInput">Complemento</label>
+                </div>
+                
+                <div class="form-floating col">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="Ao lado da padaria do Chico">
+                  <label for="floatingInput">Referência</label>
+                </div>
+            </div>              
+            
         </section>
         <section class="container infosComplementares vstack gap-3">
           <h3 class="title text-start">Informações complementares</h3>
   
             <div class="row">
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Desenvolvedora">
+                <label for="floatingInput">Profissão</label>
               </div>
               
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Sim">
+                <label for="floatingInput">Está trabalhando atualmente?</label>
               </div>
             </div>
               
             <div class="row">
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Casada">
+                <label for="floatingInput">Estado civil</label>
               </div>
               
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="3">
+                <label for="floatingInput">Quantas pessoas moram em sua residência?</label>
               </div>
             </div>
   
             <div class="row">
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Casa">
+                <label for="floatingInput">Você mora em:</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Não">
+                <label for="floatingInput">Tem crianças em sua residência?</label>
               </div>
               
               <div class="form-floating col">
-                <input type="" class="form-control" id="floatingInput" placeholder="Lorem Ipsom">
-                <label for="floatingInput">Lorem Ipsom</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="3">
+                <label for="floatingInput">Quantas pessoas moram em sua residência?</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="3">
+                <label for="floatingInput">Sua residencia é própria ou alugada?</label>
+              </div>
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Presente">
+                <label for="floatingInput">O pet é para você ou é presente?</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Sim">
+                <label for="floatingInput">Caso adote, permite que sua residência seja visitada por um responsável das nossas ONGs parceiras?</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-floating col">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Sim">
+                <label for="floatingInput">Você se compromete em devolver o pet para a ONG se por qualquer motivo não puder continuar com ele?</label>
               </div>
             </div>
 

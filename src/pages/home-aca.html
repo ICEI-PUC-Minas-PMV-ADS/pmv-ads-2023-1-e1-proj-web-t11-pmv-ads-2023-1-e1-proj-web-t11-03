@@ -6,6 +6,65 @@
     <title>Pethub | Seu point certo para adoção de pets</title>
 </head>
 <!-- HEADER -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalDetalhesPet" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header d-flex align-self-end hstack gap-3">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="adotado">Marcar como adotado</button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="../img/cachorro-independente-1.jpg" class="img-fluid petAcaModalImg">
+                </div>
+                <div class="col-md-6 vstack gap-3">
+                    <div >
+                        <p class="m-0"><strong>Nome: </strong>Thor</p>
+                        <p class="m-0"><strong>Espécie: </strong>Cão</p>
+                        <p class="m-0"><strong>Raça: </strong>Golden</p>
+                        <p class="m-0"><strong>Idade: </strong>1 ano</p>
+                        <p class="m-0"><strong>Porte: </strong>Grande</p>
+                        <p class="m-0"><strong>Vermifugado? </strong>Sim</p>
+                        <p class="m-0"><strong>Vacinado? </strong>Sim</p>
+                        <p class="m-0"><strong>Castrado? </strong>Sim</p>
+                    </div>
+
+                    <div>
+                        <p class="m-0"><strong>Detalhes adicionais:</strong></p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                </div>
+              </div>
+        </div>
+        <div class="modal-footer d-flex">
+            <a class="btn btn-lg btn-primary" href="#" role="button">Editar</a>
+            <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#modalExcluirPet">Excluir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalExcluirPet" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header d-flex align-self-end">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body container-fluid text-center m-3">
+            <h1 class="fs-1 text-primary">Pet removido com sucesso!</h1>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-primary" data-bs-dismiss="modal">Voltar pro meu menu</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- fim do modal-->
+
 <nav class="py-2 bg-info border-bottom">
     <div class="container d-flex justify-content-center pt-2">
         <p class="text-light"><b>Seu point certo para adoção de pets</b></p>
@@ -17,7 +76,7 @@
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"/>
             </svg>
-            <span class="fs-4">Pethub</span>
+            <span class="pethubLogo fs-4">Pethub</span>
         </a>
         <ul class="nav">
             <li class="nav-item">
@@ -81,9 +140,7 @@
                     <div class="container">
                         <div class="d-flex justify-content-between pb-5">
                             <h2 class="text-primary">Pets Cadastrados</h2>
-                            <button class="btn btn-outline-primary" style="border-radius: 0rem">
-                                Cadastrar Pet
-                            </button>
+                            <a class="btn btn-lg btn-primary" href="/cadastro/pet" role="button">Cadastrar pet</a>
                         </div>
                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                             <div class="col">
@@ -101,7 +158,30 @@
                                             <h3 class="fs-2">Pet Tal</h3>
                                             <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
                                             <div class="d-flex justify-content-end">
-                                                <a href="#" class="btn btn-primary tex-light">
+                                                <button class="btn btn-primary tex-light" data-bs-toggle="modal" data-bs-target="#modalDetalhesPet">
+                                                    <b>Detalhes</b>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card shadow-sm">
+                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                         xmlns="http://www.w3.org/2000/svg" role="img"
+                                         aria-label="Placeholder: Thumbnail"
+                                         preserveAspectRatio="xMidYMid slice" focusable="false"><title>
+                                        Placeholder</title>
+                                        <rect width="100%" height="100%" fill="#55595c"/>
+                                        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+                                    </svg>
+                                    <div class="card-body">
+                                        <div>
+                                            <h3 class="fs-2">Pet Tal</h3>
+                                            <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
+                                            <div class="d-flex justify-content-end">
+                                                <a href="#" class="btn btn-primary tex-light modalDetalhesPet">
                                                     <b>Detalhes</b>
                                                 </a>
                                             </div>
@@ -124,7 +204,7 @@
                                             <h3 class="fs-2">Pet Tal</h3>
                                             <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
                                             <div class="d-flex justify-content-end">
-                                                <a href="#" class="btn btn-primary tex-light">
+                                                <a href="#" class="btn btn-primary tex-light modalDetalhesPet">
                                                     <b>Detalhes</b>
                                                 </a>
                                             </div>
@@ -147,7 +227,7 @@
                                             <h3 class="fs-2">Pet Tal</h3>
                                             <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
                                             <div class="d-flex justify-content-end">
-                                                <a href="#" class="btn btn-primary tex-light">
+                                                <a href="#" class="btn btn-primary tex-light modalDetalhesPet">
                                                     <b>Detalhes</b>
                                                 </a>
                                             </div>
@@ -170,30 +250,7 @@
                                             <h3 class="fs-2">Pet Tal</h3>
                                             <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
                                             <div class="d-flex justify-content-end">
-                                                <a href="#" class="btn btn-primary tex-light">
-                                                    <b>Detalhes</b>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                         xmlns="http://www.w3.org/2000/svg" role="img"
-                                         aria-label="Placeholder: Thumbnail"
-                                         preserveAspectRatio="xMidYMid slice" focusable="false"><title>
-                                        Placeholder</title>
-                                        <rect width="100%" height="100%" fill="#55595c"/>
-                                        <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                                    </svg>
-                                    <div class="card-body">
-                                        <div>
-                                            <h3 class="fs-2">Pet Tal</h3>
-                                            <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
-                                            <div class="d-flex justify-content-end">
-                                                <a href="#" class="btn btn-primary tex-light">
+                                                <a href="#" class="btn btn-primary tex-light modalDetalhesPet">
                                                     <b>Detalhes</b>
                                                 </a>
                                             </div>
@@ -217,7 +274,7 @@
                                             <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
                                             <div class="d-flex justify-content-end">
                                                 <div class="d-flex justify-content-end">
-                                                    <a href="#" class="btn btn-primary tex-light">
+                                                    <a href="#" class="btn btn-primary tex-light modalDetalhesPet">
                                                         <b>Detalhes</b>
                                                     </a>
                                                 </div>
