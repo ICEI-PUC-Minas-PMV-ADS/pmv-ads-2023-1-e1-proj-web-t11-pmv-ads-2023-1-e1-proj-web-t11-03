@@ -51,10 +51,11 @@
 <!-- FIM HEADER -->
 <body>
 <main>
-    <section class="py-5 text-center container bg-secondary">
+    <section class="py-5 text-center container bg-secondary"
+             style="background-image: url('../img/background-image.png')">
         <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
-                <form class="row row-cols-lg-auto g-3 align-items-center">
+                <form class="row row-cols-lg-auto g-3 p-3 align-items-center bg-light" style="border-radius: 1rem;">
                     <div class="col-12">
                         <select class="form-select">
                             <option selected>Estado</option>
@@ -111,12 +112,8 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"/>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                        </svg>
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                             src="../img/banner-vira-lata-principal-mobile.png"/>
                         <div class="card-body">
                             <div>
                                 <h3 class="fs-2">Pet Tal</h3>
@@ -151,12 +148,8 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"/>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                        </svg>
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                             src="../img/sorriso.jpg"/>
                         <div class="card-body">
                             <div>
                                 <h3 class="fs-2">Pet Tal</h3>
@@ -173,12 +166,8 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"/>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                        </svg>
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                             src="../img/caramelo1.jpg"/>
                         <div class="card-body">
                             <div>
                                 <h3 class="fs-2">Pet Tal</h3>
@@ -195,12 +184,8 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                             preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c"/>
-                            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-                        </svg>
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                             src="../img/vira-lata-preto.jpg"/>
                         <div class="card-body">
                             <div>
                                 <h3 class="fs-2">Pet Tal</h3>
@@ -219,65 +204,76 @@
         </div>
     </div>
     <!-- Modal -->
-<div class="modal fade" id="modalInteresse" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-        <div class="modal-body container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="../img/cachorro-independente-1.jpg" class="img-fluid petAcaModalImg">
+    <div class="modal fade" id="modalInteresse" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="../img/cachorro-independente-1.jpg" class="img-fluid petAcaModalImg">
+                        </div>
+                        <div class="col-md-6 vstack gap-3">
+                            <div>
+                                <p class="m-0"><strong>Nome: </strong>Thor</p>
+                                <p class="m-0"><strong>Espécie: </strong>Cão</p>
+                                <p class="m-0"><strong>Raça: </strong>Golden</p>
+                                <p class="m-0"><strong>Idade: </strong>1 ano</p>
+                                <p class="m-0"><strong>Porte: </strong>Grande</p>
+                                <p class="m-0"><strong>Vermifugado? </strong>Sim</p>
+                                <p class="m-0"><strong>Vacinado? </strong>Sim</p>
+                                <p class="m-0"><strong>Castrado? </strong>Sim</p>
+                            </div>
+
+                            <div>
+                                <p class="m-0"><strong>Localização em: </strong>Rua: Tal, nº 123 - Bairro: Tal, Montes
+                                    Claros - MG</p>
+                            </div>
+
+                            <div>
+                                <p class="m-0"><strong>Detalhes adicionais:</strong></p>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.</p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 vstack gap-3">
-                    <div >
-                        <p class="m-0"><strong>Nome: </strong>Thor</p>
-                        <p class="m-0"><strong>Espécie: </strong>Cão</p>
-                        <p class="m-0"><strong>Raça: </strong>Golden</p>
-                        <p class="m-0"><strong>Idade: </strong>1 ano</p>
-                        <p class="m-0"><strong>Porte: </strong>Grande</p>
-                        <p class="m-0"><strong>Vermifugado? </strong>Sim</p>
-                        <p class="m-0"><strong>Vacinado? </strong>Sim</p>
-                        <p class="m-0"><strong>Castrado? </strong>Sim</p>
-                    </div>
-
-                    <div >
-                        <p class="m-0"><strong>Localização em: </strong>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
-                    </div>
-
-                    <div>
-                        <p class="m-0"><strong>Detalhes adicionais:</strong></p>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modalInteresseSucesso">Tenho interesse
+                    </button>
                 </div>
-              </div>
-        </div>
-        <div class="modal-footer d-flex justify-content-center">
-            <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#modalInteresseSucesso">Tenho interesse</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="modalInteresseSucesso" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-        <div class="modal-header d-flex align-self-end">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body container-fluid text-center m-3">
-            <h1 class="fs-1 text-primary">Pet salvo com sucesso!</h1>
-            <div class="pt-3 mx-5">
-                Veja os detalhes do ACA responsável por este pet na sua área de Pets Salvos para finalizar a adoção !
-            </div>
             </div>
         </div>
-        <!--<div class="modal-footer d-flex justify-content-center">
-            <button class="btn btn-primary" data-bs-dismiss="modal">Ver detalhes do pet</button>
-        </div>-->
-      </div>
     </div>
-  </div>
-<!-- fim do modal-->
+
+    <div class="modal fade" id="modalInteresseSucesso" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header d-flex align-self-end">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body container-fluid text-center m-3">
+                    <h1 class="fs-1 text-primary">Pet salvo com sucesso!</h1>
+                    <div class="pt-3 mx-5">
+                        Veja os detalhes do ACA responsável por este pet na sua área de Pets Salvos para finalizar a
+                        adoção !
+                    </div>
+                </div>
+            </div>
+            <!--<div class="modal-footer d-flex justify-content-center">
+                <button class="btn btn-primary" data-bs-dismiss="modal">Ver detalhes do pet</button>
+            </div>-->
+        </div>
+    </div>
+    </div>
+    <!-- fim do modal-->
 </main>
 <footer class="text-body-secondary py-5">
     <div class="container">
