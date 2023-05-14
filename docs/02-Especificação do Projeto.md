@@ -35,31 +35,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Quando autenticado como adotante o site deve apresentar na página principal os pets que foram cadastrados de acordo com a localização do usuário por meio de uma API.  | MÉDIA | 
+|RF-002| O site deverá apresentar na barra superior no canto direito, caso o usuário esteja autenticado, um menu contendo itens que o permitirá: acessar o perfil, navegar até os pets que já se interessou e encerrar a sessão. E caso não esteja logado deverá mostrar dois botões que o permitirá: navegar até a tela de cadastro ou navegar até a tela de login.    | ALTA |
+|RF-003| O site deverá apresentar uma barra de busca que permitirá ao usuário filtrar os pets da página inicial por localização.   | MÉDIA |
+|RF-004| O site deve apresentar para cada pet uma imagem possibilitando que o usuário clique nela e veja os detalhes sobre aquele pet.   | ALTA |
+|RF-005| O site deve apresentar para cada pet uma imagem possibilitando que o usuário clique nela e veja os detalhes sobre aquele pet.   | ALTA |
+|RF-006| Ao clicar no botão descrito na RF-05, o site deverá apresentar uma ação de sucesso e mostrar os dados do ACA que cadastrou aquele pet.    | BAIXA |
+|RF-007| O site deve apresentar uma tela de cadastro como adotante que solicitará ao usuário informações para preencher o seu perfil como adotante.    | ALTA |
+|RF-008| O site deve apresentar uma tela de cadastro como ACA que solicitará informações para preencher o perfil como ACA.    | ALTA |
+|RF-009| O site deverá ter uma tela para login, a fim de permitir que o usuário seja autenticado.     | ALTA |
+|RF-010| Quando logado como ACA o site deverá mostrar uma tela administrativa que mostrará inicialmente os pets cadastrados por ele.      | ALTA |
+|RF-011| O site deverá exibir uma barra superior ao ACA na qual no canto direito uma mensagem de saudação e no canto esquerdo um botão que abrirá um modal para cadastro do pet.       | ALTA |
+|RF-012| O site deverá exibir ao ACA um modal solicitando informações para cadastro do pet.        | ALTA |
+|RF-013| Ao clicar em uma foto de um pet na área administrativa do ACA, o site deve mostrar um modal semelhante ao descrito na RF-12, com as informações já cadastradas do pet, e exibir as opções de editar, marcar como adotado e excluir.         | ALTA |
+|RF-014| O site deverá possuir uma tela que irá permitir ao ACA visualizar uma lista com as pessoas que demonstraram interesse em seus pets.          | ALTA |
+|RF-015| Ao clicar em um item da lista citada na RF-14 o site deverá exibir um modal contendo as informações que o usuário adotante cadastrou conforme a RF-07.         | ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  ALTA | 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade   |  MÉDIA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA | 
+|RNF-005| O site deverá armazenar os dados dos usuários em local seguro a fim de evitar problemas com a Lei Geral de Proteção de Dados (LGPD)  |  ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -67,12 +69,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|01| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend  |
+|02| A equipe não pode subcontratar o desenvolvimento do trabalho.        |
+|03| O projeto não é responsável pela adoção final ou qualquer transporte de animal até o adotante.        |
+|04| O projeto não terá solicitação de ajuda aos ACAs em relação de animais que foram encontrados.         |
