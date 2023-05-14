@@ -41,21 +41,25 @@ os requisitos que elas atendem.
      <li>Será a primeira a tela a aparecer ao rodar o projeto</li>
  </ol>
 
-<h2>Cadastro de Usuários</h2>
+<h2>Cadastro de Usuários e Login</h2>
 <p>Existem dois tipos de usuários, ACA e Adotante. Os cadastros para esses usuários começam na mesma tela, mas conforme
 resposta são direcionados para fluxos diferentes. Segue abaixo um exemplos das telas: </p>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/9135f90c-5b5c-4dbf-ac1a-33c95f5d19ee)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/932becfc-763a-49aa-ae06-e2a4bb282284)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/4c368a5d-285b-4c08-82ab-550af05d35ed)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/2f134cbc-4dd4-427c-912d-4d6c1a988fa4)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/2515d139-3638-4789-bdc6-7c9d54778174)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/1693e7d5-edaf-45e3-a657-6221a5183fea)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/4815ebff-fa3e-4ce4-9570-9d2bbd2ab247)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/1fdf051b-3b5f-498d-bf97-ce294f4d9058)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/9b46d278-a540-4cbe-99a8-972041358bba)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/a5bb90e7-4ab1-4978-a8d0-d62e9d0a8e8e)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/8b18f1ab-0859-44ae-92ed-870505525dfd)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/7e8ea2e0-f944-45f0-b267-8138270f0777)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/e3efe148-1333-4471-bf16-d9bd5d4060f1)
+
+
 
 <h4>Requisitos atendidos: </h4>
 <ul>
