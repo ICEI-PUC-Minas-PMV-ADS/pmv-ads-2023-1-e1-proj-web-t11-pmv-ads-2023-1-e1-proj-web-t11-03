@@ -3,6 +3,18 @@
 
 A metodologia utilizada para resolver o problema será uma adaptação do SCRUM e Kanban de maneira a gerenciarmos as tarefas que serão atribuídas aos integrantes dos times bem como seus papéis dentro do projeto. O time usuará o Discord como ferramenta de comunicação assíncrona e fará reuniões semanais para definir a atribuição de tarefas ao longo da semana. Para controle de versão do código será utilizado o Git e o repositório em que o código será o Github. Para gestão das tarefas do time será utilizado o próprio Github que dispõe de uma ferramenta própria para isso no próprio repositório. 
 
+## Relações do ambiente de trabalho
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue: 
+
+|Ambiente     | Plataforma  |Link de acesso |
+|-------|-------------------------|----|
+|Repositório do código fonte| GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03  | 
+|Documentos do projeto | Teams | https://teams.microsoft.com/_#/school/conversations/Grupo%203%20-%2019-00hs%20as%2019-30hs?threadId=19:5a130323baff45b8a28895216094b487@thread.tacv2&ctx=channel | 
+|Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/KiubNfiGnDBtfM9WmSQKwo/PETHUB?node-id=0-1&t=SkzFq1ciWVnhxMN1-0  | 
+|Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/KiubNfiGnDBtfM9WmSQKwo/PETHUB?node-id=0-1&t=SkzFq1ciWVnhxMN1-0  | 
+Gerenciamento do Projeto | GitHub Projects | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/402  | 
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
