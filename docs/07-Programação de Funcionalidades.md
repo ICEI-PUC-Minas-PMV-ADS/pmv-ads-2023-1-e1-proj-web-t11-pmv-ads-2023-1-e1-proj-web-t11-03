@@ -87,8 +87,6 @@ resposta são direcionados para fluxos diferentes. Segue abaixo um exemplos das 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/fd373f4e-3feb-4a96-9dd5-7641bddeecb1)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-03/assets/16339610/fd373f4e-3feb-4a96-9dd5-7641bddeecb1)
-
 <h4>Requisitos atendidos: </h4>
 <ul>
 <li>RF-10</li>
@@ -121,14 +119,14 @@ resposta são direcionados para fluxos diferentes. Segue abaixo um exemplos das 
 
 <h4>Artefatos da funcionalidade</h4>
 <ul>
-    <li>src/pages/home-pet.html</li>
+    <li>src/pages/cadastro-pet.html</li>
     <li>src/scss/styles.scss</li>
     <li>src/js/main.js</li>
     <li>src/img</li>
 </ul>
 <h4>Instruções de Acesso</h4>
 <ol>
-    <li>Ao rodar o projeto acesse http://localhost:3000/home-aca</li>
+    <li>Ao rodar o projeto acesse http://localhost:3000/cadastro/pet</li>
 </ol>
 
 <h2>Adotantes Interessados</h2>
@@ -154,5 +152,5 @@ resposta são direcionados para fluxos diferentes. Segue abaixo um exemplos das 
 </ul>
 <h4>Instruções de Acesso</h4>
 <ol>
-    <li>Ao rodar o projeto acesse http://localhost:3000/home-aca</li>
+    <li>Ao rodar o projeto acesse http://localhost:3000/home-aca/adotantes-interessados</li>
 </ol>
