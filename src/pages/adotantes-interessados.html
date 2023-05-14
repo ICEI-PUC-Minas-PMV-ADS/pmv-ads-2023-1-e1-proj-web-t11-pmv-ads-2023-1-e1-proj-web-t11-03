@@ -24,6 +24,40 @@
     </div>
 </header>
 <!-- FIM HEADER -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalSabermais" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header d-flex align-self-end hstack gap-3">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../img/Osvaldo.jpg" class="img-fluid petAcaModalImg">
+                    </div>
+                    <div class="col-md-6 vstack gap-3">
+                        <div>
+                            <p class="m-0"><strong>Nome: </strong>Osvaldo Rodrigues</p>
+                            <p class="m-0"><strong>E-mail: </strong>osvall99@ph.com</p>
+                            <p class="m-0"><strong>Telefone: </strong>(21) 9999-9999</p>
+                            <p class="m-0"><strong>Endereço: </strong>Rua Itacoatiara, nº 123, Amazonas, Montes Claros - MG</p>
+                            <p class="m-0"><strong>Profissão: </strong>Desenvolvedor</p>
+                            <p class="m-0"><strong>Estado civil </strong>Viúvo</p>
+                            <p class="m-0"><strong>Casa telada? </strong>Sim</p>
+                            <p class="m-0"><strong>Já teve pets antes? </strong>Sim</p>
+                            <p class="m-0"><strong>Declara ter condições financeiras para cuidar de um animal de estimação? </strong>Sim</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- fim do modal-->
+
 <body>
 <main>
     <div class="container">
@@ -36,7 +70,7 @@
                 <hr>
                 <ul class="nav nav-pills flex-column mb-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link link-body-emphasis" aria-current="page">
+                        <a href="/home-aca" class="nav-link link-body-emphasis" aria-current="page">
                             <svg class="bi pe-none me-2" width="16" height="16">
                                 <use xlink:href="#home"/>
                             </svg>
@@ -44,7 +78,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link active bg-info">
+                        <a href="/home-aca/adotantes-interessados" class="nav-link active bg-info">
                             <svg class="bi pe-none me-2" width="16" height="16">
                                 <use xlink:href="#speedometer2"/>
                             </svg>
@@ -60,7 +94,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link link-body-emphasis">
+                        <a href="/home" class="nav-link link-body-emphasis">
                             <svg class="bi pe-none me-2" width="16" height="16">
                                 <use xlink:href="#grid"/>
                             </svg>
@@ -84,9 +118,10 @@
                                             <h3 class="fs-2">Osvaldo Rodrigues</h3>
                                             <p>Rua: Itacoatiara, nº 123 - Bairro: Amazonas, Montes Claros - MG</p>
                                             <div class="d-flex justify-content-end">
-                                                <a href="#" class="btn btn-primary tex-light">
+                                                <button class="btn btn-primary tex-light" data-bs-toggle="modal"
+                                                        data-bs-target="#modalSabermais">
                                                     <b>Saber mais</b>
-                                                </a>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
