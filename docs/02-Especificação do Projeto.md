@@ -39,7 +39,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O site deverá apresentar na barra superior no canto direito, caso o usuário esteja autenticado, um menu contendo itens que o permitirá: acessar o perfil, navegar até os pets que já se interessou e encerrar a sessão. E caso não esteja logado deverá mostrar dois botões que o permitirá: navegar até a tela de cadastro ou navegar até a tela de login.    | ALTA |
 |RF-003| O site deverá apresentar uma barra de busca que permitirá ao usuário filtrar os pets da página inicial por localização.   | MÉDIA |
 |RF-004| O site deve apresentar para cada pet uma imagem possibilitando que o usuário clique nela e veja os detalhes sobre aquele pet.   | ALTA |
-|RF-005| Ao clicar no botão descrito na RF-05, o site deverá apresentar uma ação de sucesso e mostrar os dados do ACA que cadastrou aquele pet.    | BAIXA |
+|RF-005| Ao clicar no botão descrito na RF-004, o site deverá apresentar uma ação de sucesso e mostrar os dados do ACA que cadastrou aquele pet.    | BAIXA |
 |RF-006| O site deve apresentar uma tela de cadastro como adotante que solicitará ao usuário informações para preencher o seu perfil como adotante.    | ALTA |
 |RF-007| O site deve apresentar uma tela de cadastro como ACA que solicitará informações para preencher o perfil como ACA.    | ALTA |
 |RF-008| O site deverá ter uma tela para login, a fim de permitir que o usuário seja autenticado.     | ALTA |
