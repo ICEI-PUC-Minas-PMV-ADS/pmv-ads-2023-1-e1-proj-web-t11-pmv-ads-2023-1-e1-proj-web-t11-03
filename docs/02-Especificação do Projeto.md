@@ -50,6 +50,38 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-013| O site deverá possuir uma tela que irá permitir ao ACA visualizar uma lista com as pessoas que demonstraram interesse em seus pets.          | ALTA |
 |RF-014| Ao clicar em um item da lista citada na RF-14 o site deverá exibir um modal contendo as informações que o usuário adotante cadastrou conforme a RF-07.         | ALTA |
 
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| A homepage da aplicação, logada ou não, deverá apresentar uma barra de busca que permitirá ao usuário filtrar os pets da página inicial por localização.         | XXXX |
+|RF-002| A homepage da aplicação, logada ou não, deve apresentar para cada pet um card com imagem e breves informações, possibilitando que o usuário clique nela e veja os detalhes sobre aquele pet.   | XXXX | 
+|RF-003| Ao acessar a página inicial da aplicação estando deslogado, o usuário deverá ver no cabeçalho da página um menu contendo itens que o permitirá: navegar até a tela de cadastro ou navegar até a tela de login.  | XXXX |
+|RF-004| Ao acessar a página inicial da aplicação estando deslogado, o usuário poderá clicar em um dos cards de pets cadastrados na plataforma e visualizar um modal com informações mais detalhadas sobre ele  | XXXX |
+|RF-005| Ao clicar em um dos cards de pets, o usuário verá um botão para demonstrar interesse mas, já que está deslogado, ao clicar será enviado para a página de login  | XXXX |
+|RF-006| A aplicação deverá ter uma tela para login, a fim de permitir que o usuário seja autenticado | XXXX |
+|RF-007| A página de login, além do formulário em si, deve ter também um botão de Criar cadastro que o enviará para o fluxo de cadastramento na plataforma  | XXXX |
+|RF-008| Ao logar, caso inicie a sessão como ACA, verá sua home administrativa. Caso inicie sessão como adotante, verá a homepage da aplicação com a barra de filtragem de pets e também cards de pets disponíveis, além de cabeçalho com menu específico de adotante  | XXXX |
+|RF-009| Para se cadastrar, a aplicação deve apresentar uma página inicial de cadastro que pede dados comuns entre ACAs e adotantes, como nome de usuário, e-mail e senha  | XXXX |
+|RF-010| Após a conclusão da etapa descrita na RF-009, a etapa seguinte será uma página com dois botões, um redirecionando para cadastro de ACA e outro pra cadastro de adotante | XXXX |
+|RF-011| Ao clicar no botão de ACA descrito na RF-010, deve abrir uma página de cadastro focado nas informações necessárias para um Agente da Causa Ambiental criar seu cadastro  | XXXX |
+|RF-012| Ao clicar no botão de Adotante descrito na RF-010, deve abrir uma página de cadastro focado nas informações necessárias para um Adotante criar seu cadastro  | XXXX |
+|RF-013| Ao estar logado como adotante e clicar no botão inserido no modal de detalhes de um pet, a aplicação deverá apresentar um modal que indica sucesso se a ação for bem sucedida  | XXXX |
+|RF-014| Ao realizar a ação da RF-013, o modal de sucesso terá um botão que enviará o adotante para a página de pets salvos por ele | XXXX |
+|RF-015| Ao estar logado como adotante e clicar no botão de interesse no modal de detalhes do pet, o site deverá em seguida apresentar um modal que indica erro caso ocorra algum  | XXXX |
+|RF-016| Ao ocorrer o erro da RF-015, o modal deve apresentar um botão que permite o usuário tentar novamente  | XXXX |
+|RF-017| Ao estar logado como adotante, quando clica no botão de Pets Salvos que se encontra no menu do cabeçalho da sua sessão, o usuário deve ser enviado para a página que mostra os pets que está interessado em adotar  | XXXX |
+|RF-018| Na homepage, ao clicar em um dos cards de pets, mostrará por meio de um modal as informações sobre o animal e também sobre a ACA responsável | XXXX |
+|RF-019| Ao estar logado como adotante, o usuário deverá ser capaz de clicar no botão de Dados da Conta que se encontra no menu do cabeçalho da sua sessão, onde será enviado para a página que o permite visualizar e também alterar seus dados cadastrais | XXXX |
+|RF-020| Na home administrativa do ACA, terá um menu lateral com as opções de ver os pets cadastrados, os adotantes interessados, os dados da conta e também sair da sessão | XXXX |
+|RF-021| Assim que loga como ACA, a aplicação deverá redirecionar o usuário diretamente para a home administrativa na funcionalidade onde é possível ver os pets cadastrados por ele.  | XXXX |
+|RF-022| Na página de pets cadastrados pela ACA, será possível ver os pets em cards e um botão de cadastrar pet  | XXXX |
+|RF-023| Ao clicar em um dos pets na página de pets cadastrados pela ACA, abrirá um modal administrativo daquele pet que, além de mostrar as informações mais detalhadas dele, também permitirá que a ACA possa marcar como adotada, editar as informações ou excluir o registro desse pet  | XXXX |
+|RF-024| Ao clicar em Marcar como adotado no botão do modal descrito na RF-023, o modal se fechará e aquele pet não deve mais aparecer na lista de pets cadastrados pela ACA  | XXXX |
+|RF-025| Ao clicar em Editar no botão do modal descrito na RF-023, a ACA será enviada para a página de edição dos dados do pet  | XXXX |
+|RF-026| Ao clicar em Excluir no botão do modal descrito na RF-023, a ACA receberá um feedback de sucesso na exclusão do pet de sua lista, com um botão que o manda para a página de pets cadastrados  | XXXX |
+|RF-027| Na página de pets cadastrados pela ACA, ao clicar no botão Cadastrar Pet, o usuário será direcionado para a página de cadastro de pet onde, ao finalizar o preenchimento dos dados necessários para criar o registro de um novo pet disponível para adoção, será redirecionado de volta para a sua home administrativa | XXXX |
+|RF-028| Na home administrativa do ACA, será possível acessar a página dos adotantes interessados ao clicar no botão do menu lateral referente a essa funcionalidade  | XXXX |
+|RF-029| Na página descrita na RF-028, terão cards com imagem e breves informações sobre os adotantes interessados nos pets | XXXX |
+|RF-030| Na home administrativa do ACA, será possível acessar a página com os dados cadastrais do usuário e também edita-los caso queira  | XXXX |
 
 ### Requisitos não Funcionais
 
