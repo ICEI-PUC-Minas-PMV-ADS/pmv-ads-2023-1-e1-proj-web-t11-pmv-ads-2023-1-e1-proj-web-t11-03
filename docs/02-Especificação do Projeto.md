@@ -53,7 +53,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-016| Ao ocorrer o erro da RF-015, o modal deve apresentar um botão que permite o usuário tentar novamente  | XXXX |
 |RF-017| Ao estar logado como adotante, quando clica no botão de Pets Salvos que se encontra no menu do cabeçalho da sua sessão, o usuário deve ser enviado para a página que mostra os pets que está interessado em adotar  | XXXX |
 |RF-018| Na homepage, ao clicar em um dos cards de pets, mostrará por meio de um modal as informações sobre o animal e também sobre a ACA responsável | XXXX |
-|RF-019| Ao estar logado como adotante, o usuário deverá ser capaz de clicar no botão de Dados da Conta que se encontra no menu do cabeçalho da sua sessão, onde será enviado para a página que o permite visualizar e também alterar seus dados cadastrais | XXXX |
+|RF-019| Ao estar logado como adotante, o usuário deverá ser capaz de clicar no botão de Dados da Conta que se encontra no menu do cabeçalho da sua sessão, onde será enviado para a página que o permite alterar seus dados cadastrais | XXXX |
 |RF-020| Na home administrativa do ACA, terá um menu lateral com as opções de ver os pets cadastrados, os adotantes interessados, os dados da conta e também sair da sessão | XXXX |
 |RF-021| Assim que loga como ACA, a aplicação deverá redirecionar o usuário diretamente para a home administrativa na funcionalidade onde é possível ver os pets cadastrados por ele.  | XXXX |
 |RF-022| Na página de pets cadastrados pela ACA, será possível ver os pets em cards e um botão de cadastrar pet  | XXXX |
@@ -64,7 +64,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-027| Na página de pets cadastrados pela ACA, ao clicar no botão Cadastrar Pet, o usuário será direcionado para a página de cadastro de pet onde, ao finalizar o preenchimento dos dados necessários para criar o registro de um novo pet disponível para adoção, será redirecionado de volta para a sua home administrativa | XXXX |
 |RF-028| Na home administrativa do ACA, será possível acessar a página dos adotantes interessados ao clicar no botão do menu lateral referente a essa funcionalidade  | XXXX |
 |RF-029| Na página descrita na RF-028, terão cards com imagem e breves informações sobre os adotantes interessados nos pets | XXXX |
-|RF-030| Na home administrativa do ACA, será possível acessar a página com os dados cadastrais do usuário e também edita-los caso queira  | XXXX |
+|RF-030| Na home administrativa do ACA, será possível acessar a página com os dados cadastrais do usuário para edita-los caso queira  | XXXX |
 
 ### Requisitos não Funcionais
 
