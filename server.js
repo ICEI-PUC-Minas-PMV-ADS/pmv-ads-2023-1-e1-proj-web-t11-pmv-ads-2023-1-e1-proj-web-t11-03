@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 
-const pagesPath = 'dist/src/pages';
+const pagesPath = 'dist/pages';
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
@@ -45,6 +45,10 @@ app.get('/cadastro/pet', (req, res) => {
 
 app.get('/home-aca/adotantes-interessados', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/adotantes-interessados.html'));
+});
+
+app.get('/home-aca/editar-pet', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/edicao-pet.html'));
 });
 
 app.listen(3000, () => {
