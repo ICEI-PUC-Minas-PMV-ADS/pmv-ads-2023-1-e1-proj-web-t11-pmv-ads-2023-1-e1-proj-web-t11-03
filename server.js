@@ -51,6 +51,14 @@ app.get('/home-aca/editar-pet', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/edicao-pet.html'));
 });
 
+app.get('/home-aca/editar-dados', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/edicao-aca.html'));
+});
+
+app.get('/editar-dados-adotante', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/edicao-adotante.html'));
+});
+
 app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');
 });
