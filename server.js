@@ -47,6 +47,10 @@ app.get('/home-aca/adotantes-interessados', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/adotantes-interessados.html'));
 });
 
+app.get('/home-aca/editar-pet', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/edicao-pet.html'));
+});
+
 app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');
 });
