@@ -35,21 +35,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Quando autenticado como adotante o site deve apresentar na página principal os pets que foram cadastrados de acordo com a localização do usuário por meio de uma API.  | MÉDIA | 
-|RF-002| O site deverá apresentar na barra superior no canto direito, caso o usuário esteja autenticado, um menu contendo itens que o permitirá: acessar o perfil, navegar até os pets que já se interessou e encerrar a sessão. E caso não esteja logado deverá mostrar dois botões que o permitirá: navegar até a tela de cadastro ou navegar até a tela de login.    | ALTA |
-|RF-003| O site deverá apresentar uma barra de busca que permitirá ao usuário filtrar os pets da página inicial por localização.   | MÉDIA |
-|RF-004| O site deve apresentar para cada pet uma imagem possibilitando que o usuário clique nela e veja os detalhes sobre aquele pet.   | ALTA |
-|RF-005| Ao clicar no botão descrito na RF-004, o site deverá apresentar uma ação de sucesso e mostrar os dados do ACA que cadastrou aquele pet.    | BAIXA |
-|RF-006| O site deve apresentar uma tela de cadastro como adotante que solicitará ao usuário informações para preencher o seu perfil como adotante.    | ALTA |
-|RF-007| O site deve apresentar uma tela de cadastro como ACA que solicitará informações para preencher o perfil como ACA.    | ALTA |
-|RF-008| O site deverá ter uma tela para login, a fim de permitir que o usuário seja autenticado.     | ALTA |
-|RF-009| Quando logado como ACA o site deverá mostrar uma tela administrativa que mostrará inicialmente os pets cadastrados por ele.      | ALTA |
-|RF-010| O site deverá exibir uma barra superior ao ACA na qual no canto direito uma mensagem de saudação e no canto esquerdo um botão que abrirá um modal para cadastro do pet.       | ALTA |
-|RF-011| O site deverá exibir ao ACA um modal solicitando informações para cadastro do pet.        | ALTA |
-|RF-012| Ao clicar em uma foto de um pet na área administrativa do ACA, o site deve mostrar um modal semelhante ao descrito na RF-12, com as informações já cadastradas do pet, e exibir as opções de editar, marcar como adotado e excluir.         | ALTA |
-|RF-013| O site deverá possuir uma tela que irá permitir ao ACA visualizar uma lista com as pessoas que demonstraram interesse em seus pets.          | ALTA |
-|RF-014| Ao clicar em um item da lista citada na RF-14 o site deverá exibir um modal contendo as informações que o usuário adotante cadastrou conforme a RF-07.         | ALTA |
-
+|RF-001| A homepage da aplicação, logada ou não, deverá apresentar uma barra de busca que permitirá ao usuário filtrar os pets da página inicial por localização ou espécie.   | ALTA |
+|RF-002| A homepage da aplicação, logada ou não, deve apresentar para cada pet um card com imagem e breves informações, possibilitando que o usuário clique nela e veja os detalhes sobre aquele pet.   | ALTA | 
+|RF-003| Ao acessar a página inicial da aplicação estando deslogado, o usuário deverá ver no cabeçalho da página um menu contendo itens que o permitirá: navegar até a tela de cadastro ou navegar até a tela de login.  | ALTA |
+|RF-004| Ao acessar a página inicial da aplicação estando deslogado, o usuário poderá clicar em um dos cards de pets cadastrados na plataforma e visualizar um modal com informações mais detalhadas sobre ele  | ALTA |
+|RF-005| A aplicação deverá ter uma tela para login, a fim de permitir que o usuário seja autenticado | ALTA |
+|RF-006| A página de login, além do formulário em si, deve ter também um botão de Criar cadastro que o enviará para o fluxo de cadastramento na plataforma  | ALTA |
+|RF-007| Ao logar, caso inicie a sessão como ACA, verá sua home administrativa. Caso inicie sessão como adotante, verá a homepage da aplicação com a barra de filtragem de pets e também cards de pets disponíveis, além de cabeçalho com menu específico de adotante  | ALTA |
+|RF-008| Para se cadastrar, a aplicação deve apresentar uma página inicial de cadastro que pede dados comuns entre ACAs e adotantes, como nome de usuário, e-mail e senha  | ALTA |
+|RF-009| Após a conclusão da etapa descrita na RF-008, a etapa seguinte será uma página com dois botões, um redirecionando para cadastro de ACA e outro pra cadastro de adotante | ALTA |
+|RF-010| Ao clicar no botão de ACA descrito na RF-009, deve abrir uma página de cadastro focado nas informações necessárias para um Agente da Causa Ambiental criar seu cadastro  | ALTA |
+|RF-011| Ao clicar no botão de Adotante descrito na RF-009, deve abrir uma página de cadastro focado nas informações necessárias para um Adotante criar seu cadastro  | ALTA |
+|RF-012| Ao estar logado como adotante e clicar no botão inserido no modal de detalhes de um pet, a aplicação deverá apresentar um modal que indica sucesso se a ação for bem sucedida  | MÉDIA |
+|RF-013| Ao realizar a ação da RF-012, o modal de sucesso terá um botão que enviará o adotante para a página de pets salvos por ele | MÉDIA |
+|RF-014| Ao estar logado como adotante, quando clica no botão de Pets Salvos que se encontra no menu do cabeçalho da sua sessão, o usuário deve ser enviado para a página que mostra os pets que está interessado em adotar  | ALTA |
+|RF-015| Na homepage, ao clicar em um dos cards de pets, mostrará por meio de um modal as informações sobre o animal e também sobre a ACA responsável | ALTA |
+|RF-016| Ao estar logado como adotante, o usuário deverá ser capaz de clicar no botão de Dados da Conta que se encontra no menu do cabeçalho da sua sessão, onde será enviado para a página que o permite alterar seus dados cadastrais | MÉDIA |
+|RF-017| Na home administrativa do ACA, terá um menu lateral com as opções de ver os pets cadastrados, os adotantes interessados, os dados da conta e também sair da sessão | ALTA |
+|RF-018| Assim que loga como ACA, a aplicação deverá redirecionar o usuário diretamente para a home administrativa na funcionalidade onde é possível ver os pets cadastrados por ele.  | MÉDIA |
+|RF-019| Na página de pets cadastrados pela ACA, será possível ver os pets em cards e um botão de cadastrar pet  | ALTA |
+|RF-020| Ao clicar em um dos pets na página de pets cadastrados pela ACA, abrirá um modal administrativo daquele pet que, além de mostrar as informações mais detalhadas dele, também permitirá que a ACA possa marcar como adotada, editar as informações ou excluir o registro desse pet  | ALTA |
+|RF-021| Ao clicar em Marcar como adotado no botão do modal descrito na RF-020, o modal se fechará e aquele pet não deve mais aparecer na lista de pets cadastrados pela ACA  | ALTA |
+|RF-022| Ao clicar em Editar no botão do modal descrito na RF-020, a ACA será enviada para a página de edição dos dados do pet  | ALTA |
+|RF-023| Ao clicar em Excluir no botão do modal descrito na RF-020, a ACA receberá um feedback de sucesso na exclusão do pet de sua lista, com um botão que o manda para a página de pets cadastrados  | ALTA |
+|RF-024| Na página de pets cadastrados pela ACA, ao clicar no botão Cadastrar Pet, o usuário será direcionado para a página de cadastro de pet onde, ao finalizar o preenchimento dos dados necessários para criar o registro de um novo pet disponível para adoção, será redirecionado de volta para a sua home administrativa | ALTA |
+|RF-025| Na home administrativa do ACA, será possível acessar a página dos adotantes interessados ao clicar no botão do menu lateral referente a essa funcionalidade  | ALTA |
+|RF-026| Na página descrita na RF-025, terão cards com imagem e breves informações sobre os adotantes interessados nos pets | ALTA |
+|RF-027| Na home administrativa do ACA, será possível acessar a página com os dados cadastrais do usuário para edita-los caso queira  | MÉDIA |
 
 ### Requisitos não Funcionais
 
