@@ -24,17 +24,17 @@
               <h2 class="fw-bold">Entrar</h2>
               
               <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">E-mail</label>
+                <input type="email" class="form-control" id="loginEmail">
+                <label for="loginEmail">E-mail</label>
               </div>
               
               <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Senha</label>
+                <input type="password" class="form-control" id="loginSenha">
+                <label for="loginSenha">Senha</label>
               </div>
 
               <div class="justify-content-center">
-                <a href="/home?logado=true" class="btn btn-lg btn-primary">Iniciar sessão</a>
+                <button onclick="logar()" class="btn btn-lg btn-primary">Iniciar sessão</button>
               </div>
                 
               <p><a href="/cadastro" class="link-body-emphasis">Cadastre-se aqui!</a></p>
