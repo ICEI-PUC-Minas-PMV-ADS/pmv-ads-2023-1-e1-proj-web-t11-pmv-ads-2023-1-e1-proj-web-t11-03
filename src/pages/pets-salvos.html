@@ -19,19 +19,7 @@
             </svg>
             <span class="pethubLogo fs-1">Pethub</span>
         </a>
-        <ul class="nav" id="menu-deslogado">
-            <li class="nav-item">
-                <a href="/login" class="nav-link link-dark px-2">
-                    <b>Entrar</b>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="/cadastro" class="nav-link link-dark px-2">
-                    <b>Registrar-se</b>
-                </a>
-            </li>
-        </ul>
-        <div class="dropdown d-none" id="menu-logado">
+        <div class="dropdown" id="menu-logado">
             <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
                data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
@@ -51,46 +39,9 @@
 <!-- FIM HEADER -->
 <body>
 <main>
-    <section class="py-5 text-center container bg-secondary"
-             style="background-image: url('../img/background-image.png')">
-        <div class="row py-lg-5">
-            <div class="col-lg-6 col-md-8 mx-auto">
-                <form class="row row-cols-lg-auto g-3 p-3 align-items-center bg-light" style="border-radius: 1rem;">
-                    <div class="col-12">
-                        <select class="form-select">
-                            <option selected>Estado</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
-                        <select class="form-select">
-                            <option selected>Cidade</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <select class="form-select" id="inlineFormSelectPref">
-                            <option selected>Espécie</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Procurar Pets</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
     <div class="album py-5 bg-body-tertiary">
         <div class="container">
-            <h2 class="text-info pb-5">Animais disponíveis para adoção</h2>
+            <h2 class="text-info pb-5">Pets Salvos</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                     <div class="card shadow-sm">
@@ -103,25 +54,7 @@
                                 <div class="d-flex justify-content-end">
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalInteresse"
                                             class="btn btn-primary tex-light">
-                                        <b>ADOTAR</b>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             src="../img/banner-vira-lata-principal-mobile.png"/>
-                        <div class="card-body">
-                            <div>
-                                <h3 class="fs-2">Pet Tal</h3>
-                                <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
-                                <div class="d-flex justify-content-end">
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#modalInteresse"
-                                            class="btn btn-primary tex-light">
-                                        <b>ADOTAR</b>
+                                        <b>VISUALIZAR</b>
                                     </button>
                                 </div>
                             </div>
@@ -139,25 +72,7 @@
                                 <div class="d-flex justify-content-end">
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalInteresse"
                                             class="btn btn-primary tex-light">
-                                        <b>ADOTAR</b>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             src="../img/sorriso.jpg"/>
-                        <div class="card-body">
-                            <div>
-                                <h3 class="fs-2">Pet Tal</h3>
-                                <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
-                                <div class="d-flex justify-content-end">
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#modalInteresse"
-                                            class="btn btn-primary tex-light">
-                                        <b>ADOTAR</b>
+                                         <b>VISUALIZAR</b>
                                     </button>
                                 </div>
                             </div>
@@ -175,25 +90,7 @@
                                 <div class="d-flex justify-content-end">
                                     <button type="button" data-bs-toggle="modal" data-bs-target="#modalInteresse"
                                             class="btn btn-primary tex-light">
-                                        <b>ADOTAR</b>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
-                             src="../img/vira-lata-preto.jpg"/>
-                        <div class="card-body">
-                            <div>
-                                <h3 class="fs-2">Pet Tal</h3>
-                                <p>Rua: Tal, nº 123 - Bairro: Tal, Montes Claros - MG</p>
-                                <div class="d-flex justify-content-end">
-                                    <button type="button" data-bs-toggle="modal" data-bs-target="#modalInteresse"
-                                            class="btn btn-primary tex-light">
-                                        <b>ADOTAR</b>
+                                         <b>VISUALIZAR</b>
                                     </button>
                                 </div>
                             </div>
@@ -242,18 +139,17 @@
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                     deserunt mollit anim id est laborum.</p>
                             </div>
+                            
+                            <div>
+                                <p class="m-0"><strong>Dados de contato do ACA:</strong></p>
+                                <p class="text-primary">(11) 99999-9999
+                                <br>
+                                emaildoaca@gmail.com
+                                </p>
+                            </div>
 
                         </div>
                     </div>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button id="botaoTenhoInteresse" type="button" class="btn btn-lg btn-primary botaoLogado" data-bs-toggle="modal"
-                            data-bs-target="#modalInteresseSucesso">
-                            Tenho interesse
-                    </button>
-                    <a type="button" class="btn btn-lg btn-primary linkNaoLogado" id="linkTenhoInteresse" href="/login">
-                            Tenho interesse
-                    </a>
                 </div>
             </div>
         </div>
