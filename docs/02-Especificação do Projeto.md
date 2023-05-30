@@ -62,6 +62,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-025| Na home administrativa do ACA, será possível acessar a página dos adotantes interessados ao clicar no botão do menu lateral referente a essa funcionalidade  | ALTA |
 |RF-026| Na página descrita na RF-025, terão cards com imagem e breves informações sobre os adotantes interessados nos pets | ALTA |
 |RF-027| Na home administrativa do ACA, será possível acessar a página com os dados cadastrais do usuário para edita-los caso queira  | MÉDIA |
+|RF-028| Ao clicar em um dos cards de adotantes interessados, descrito na RF-025, abrirá um modal com informações mais detalhadas sobre aquela pessoa e também qual pet ela está interessada  | ALTA |
 
 ### Requisitos não Funcionais
 
