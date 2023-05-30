@@ -8,10 +8,12 @@ const modalInteresseSucesso = document.getElementById('modalInteresseSucesso');
 const botaoTenhoInteresse = document.getElementById("botaoTenhoInteresse");
 const linkTenhoInteresse = document.getElementById("linkTenhoInteresse");
 
-if (logado) {
-    dropdownLogado.classList.toggle('d-none');
-    listEntrarRegistrar.classList.toggle('d-none');
-    linkTenhoInteresse.classList.toggle('d-none');
-}else{
-    botaoTenhoInteresse.classList.toggle('d-none');
+if (queryString) {
+    if (logado) {
+        dropdownLogado.classList.toggle('d-none');
+        listEntrarRegistrar.classList.toggle('d-none');
+        linkTenhoInteresse.classList.toggle('d-none');
+    }else{
+        botaoTenhoInteresse.classList.toggle('d-none');
+    }
 }
