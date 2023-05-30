@@ -1,4 +1,4 @@
-function logar(){
+export function logar(){
     var loginEmail = document.getElementById("loginEmail");
     var loginSenha = document.getElementById("loginSenha");
 

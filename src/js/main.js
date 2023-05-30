@@ -11,3 +11,8 @@ document.querySelectorAll('[data-bs-toggle="popover"]')
   })
 
 import './home.js';
+import {logar} from "./login";
+
+window.myFunctions = {};
+
+window.myFunctions.logar = logar;
