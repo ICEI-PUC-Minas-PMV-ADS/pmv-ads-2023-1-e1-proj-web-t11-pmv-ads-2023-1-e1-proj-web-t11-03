@@ -59,10 +59,6 @@ app.get('/editar-dados-adotante', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/edicao-adotante.html'));
 });
 
-app.get('/pets-salvos', (req, res) => {
-    res.sendFile(path.join(__dirname, pagesPath, '/pets-salvos.html'));
-});
-
 app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');
 });

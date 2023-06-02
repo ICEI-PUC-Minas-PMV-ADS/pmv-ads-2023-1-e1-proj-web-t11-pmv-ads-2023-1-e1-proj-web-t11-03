@@ -5,13 +5,18 @@ Os requisitos para realização dos testes de software são:
 - Navegador da Internet - Chrome, Firefox ou Edge
 - Conectividade de Internet para acesso às plataformas (APISs)
 
-Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
-## ATENÇÃO, EXEMPLO ABAIXO (é para editar)
-
-|     Caso de Teste     | CT-01 - Visualizar notícias principais |
+|     Caso de Teste     | CT-XX - Visualizar página dos adotantes interessados (Visão ACA) |
 |:---------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Requisitos Associados | <strong>RF-01</strong> - O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API) <br> <strong>RF-02</strong> - O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail) |
-|   Objetivo do Teste   | Verificar se a carga de notícias está acontecendo corretamente |
-|         Passos        | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Visualizar a página principal |
-|   Critérios de Êxito  | Deve haver uma requisição AJAX no painel NETWORK das ferramentas do Desenvolvedor (recurso do Navegador). As notícias devem ser exibidas corretamente no site, sendo necessárias pelo menos 3 notícias sendo apresentadas As notícias devem trazer imagens visíveis associadas ao assunto da notícia |
+| Requisitos Associados | <strong>RF-025</strong> - Na home administrativa do ACA, será possível acessar a página dos adotantes interessados ao clicar no botão do menu lateral referente a essa funcionalidade.  <br> <strong>RF-026</strong> - Na página descrita na RF-025, terão cards com imagem e breves informações sobre os adotantes interessados nos pets. |
+|   Objetivo do Teste   | Verificar se a página de adotantes interessados está renderizando corretamente. |
+|         Passos        | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Visualizar a homepage deslogada <br> 4) Logar como ACA <br> 5) Visualizar a página administrativa do ACA <br> 5) Clicar em Adotantes interessados, no menu à esquerda <br> 6) Deve ser redirecionado para a página de adotantes interessados |
+|   Critérios de Êxito  | A página deve apresentar texto referente à seção de adotantes interessados, além de cards interativos com imagem do adotante e breves informações sobre ele. |
+
+|     Caso de Teste     | CT-XX - Abrir modal ao clicar em adotante interessado (Visão ACA) |
+|:---------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Requisitos Associados |<strong>RF-028</strong> - Ao clicar em um dos cards de adotantes interessados, descrito na RF-025, abrirá um modal com informações mais detalhadas sobre aquela pessoa e também qual pet ela está interessada. |
+|   Objetivo do Teste   | Verificar se, ao clicar em um adotante interessado, abre um modal com detalhes sobre ele. |
+|         Passos        | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Visualizar a homepage deslogada <br> 4) Logar como ACA <br> 5) Visualizar a página administrativa do ACA <br> 5) Clicar em Adotantes interessados, no menu à esquerda <br> 6) Deve ser redirecionado para a página de adotantes interessados<br> 7) Clicar em Saber mais, dentro do card de um dos adotantes interessados |
+|   Critérios de Êxito  | Deve abrir um modal com informações mais detalhadas sobre aquele adotante interessado e também qual pet ele está interessado. |
