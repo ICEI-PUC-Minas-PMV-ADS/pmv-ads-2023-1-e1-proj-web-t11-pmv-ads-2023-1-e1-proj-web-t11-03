@@ -12,7 +12,10 @@ document.querySelectorAll('[data-bs-toggle="popover"]')
 
 import './home.js';
 import {logar} from "./login";
+import {cadastrar} from "./cadastro";
 
 window.myFunctions = {};
 
+
 window.myFunctions.logar = logar;
+window.myFunctions.cadastrar = cadastrar;
