@@ -8,11 +8,15 @@ const pagesPath = 'dist/src/pages';
 app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, pagesPath, '/index.html'));
+    res.redirect('/home');
 });
 
 app.get('/home', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/home.html'));
+});
+
+app.get('/sumario', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/index.html'));
 });
 
 app.get('/home-aca', (req, res) => {
@@ -57,6 +61,10 @@ app.get('/home-aca/editar-dados', (req, res) => {
 
 app.get('/editar-dados-adotante', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/edicao-adotante.html'));
+});
+
+app.get('/pets-salvos', (req, res) => {
+    res.sendFile(path.join(__dirname, pagesPath, '/pets-salvos.html'));
 });
 
 app.listen(3000, () => {
