@@ -8,7 +8,7 @@ const pagesPath = 'dist/src/pages';
 app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, pagesPath, '/index.html'));
+    res.redirect('home');
 });
 
 app.get('/home', (req, res) => {
