@@ -22,10 +22,7 @@ export function logar(){
     } else if (loginEmail.value == "aca@pethub.com" && loginSenha.value == "aca"){
         window.location.href = "/home-aca";
     } else {
-        //alert("Usuário ou senha inválidos!");
-        alerta.classList.remove("d-none");
-        
-    }
-    
+        alerta.classList.remove("d-none");    
+    } 
     return false;
 }
