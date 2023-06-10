@@ -3,7 +3,7 @@ export function cadastrar(){
     var cadastroNome = document.getElementById("cadastroNome");
     var cadastroSenha = document.getElementById("cadastroSenha");
     var cadastroResenha = document.getElementById("cadastroResenha");
-    var alerta = document.querySelector(".alert");
+    
 
     cadastroEmail.classList.remove("is-invalid");
     cadastroNome.classList.remove("is-invalid");
