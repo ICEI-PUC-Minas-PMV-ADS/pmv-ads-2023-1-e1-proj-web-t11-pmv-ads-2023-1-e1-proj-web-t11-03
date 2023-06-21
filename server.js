@@ -67,6 +67,10 @@ app.get('/pets-salvos', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/pets-salvos.html'));
 });
 
+console.log('Dirname: '+__dirname);
+console.log('Pages path: '+pagesPath);
+
+
 app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');
 });
