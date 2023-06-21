@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const glob = require('glob');
 
-const htmlFiles = glob.sync('./src/pages/*.html');
+const htmlFiles = glob.sync('./src/pages/*.*');
 
 const htmlPlugins = htmlFiles.map(file => {
   return new HtmlWebpackPlugin({
@@ -20,10 +20,10 @@ module.exports = {
   entry: './src/js/main.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'src/dist'),
   },
   devServer:{
-    static: path.resolve(__dirname, 'dist'),
+    static: path.resolve(__dirname, 'src/dist'),
     port: 8080,
     hot: true
   },
@@ -31,7 +31,7 @@ module.exports = {
     ...htmlPlugins,
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'src/img', to: path.resolve(__dirname, 'dist/img') },
+        { from: 'src/img', to: path.resolve(__dirname, 'src/dist/img') },
       ],
     }),
   ],

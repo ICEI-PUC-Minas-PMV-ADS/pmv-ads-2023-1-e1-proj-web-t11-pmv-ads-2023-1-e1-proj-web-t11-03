@@ -3,9 +3,9 @@ const path = require('path');
 
 const app = express();
 
-const pagesPath = 'dist/src/pages';
+const pagesPath = 'src/dist/src/pages';
 
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, '/src/dist')));
 
 app.get('/', (req, res) => {
     res.redirect('/home');
