@@ -3,9 +3,9 @@ const path = require('path');
 
 const app = express();
 
-const pagesPath = 'src/dist/src/pages';
+const pagesPath = 'dist/pages';
 
-app.use(express.static(path.join(__dirname, '/src/dist')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 app.get('/', (req, res) => {
     res.redirect('/home');
@@ -66,10 +66,6 @@ app.get('/editar-dados-adotante', (req, res) => {
 app.get('/pets-salvos', (req, res) => {
     res.sendFile(path.join(__dirname, pagesPath, '/pets-salvos.html'));
 });
-
-console.log('Dirname: '+__dirname);
-console.log('Pages path: '+pagesPath);
-
 
 app.listen(3000, () => {
     console.log('Servidor iniciado na porta 3000');

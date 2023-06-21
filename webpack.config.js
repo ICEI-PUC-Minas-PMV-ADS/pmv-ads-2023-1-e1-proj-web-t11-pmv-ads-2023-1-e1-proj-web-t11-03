@@ -20,10 +20,10 @@ module.exports = {
   entry: './src/js/main.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'src/dist'),
+    path: path.resolve(__dirname, 'dist'),
   },
   devServer:{
-    static: path.resolve(__dirname, 'src/dist'),
+    static: path.resolve(__dirname, 'dist'),
     port: 8080,
     hot: true
   },
@@ -31,7 +31,7 @@ module.exports = {
     ...htmlPlugins,
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'src/img', to: path.resolve(__dirname, 'src/dist/img') },
+        { from: 'src/img', to: path.resolve(__dirname, 'dist/img') },
       ],
     }),
   ],
