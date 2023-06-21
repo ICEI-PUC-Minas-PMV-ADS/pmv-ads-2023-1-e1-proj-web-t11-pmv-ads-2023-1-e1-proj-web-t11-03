@@ -45,7 +45,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <a href="https://pethub.onrender.com">Pethub - Seu point certo para adoção de pets </a> 
 
 # Armazenamento do Código-Fonte
 
